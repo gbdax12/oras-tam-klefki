@@ -82,13 +82,12 @@ Head to Rustboro City Gym and skip every trainer.
 ::damage[Geodude's Rock Tomb]{source="Klefki" offensive=false movePower=60 level=8 evs=1 opponentLevel=12 stab=true opponentStat=24 effectiveness=0.5}
 
 :::::trainer[Leader Roxanne]
-  :::pokemon[Geodude]
+  :::pokemon[Geodude]{info="Ideally try to hit into potion range, use astonish if close to range" infoColor=gray}
     - Fairy Wind x3
     ::damage[Geodude' Tackle]{source="Klefki" offensive=false movePower=50 level=8 evs=1 opponentLevel=12 opponentStat=24 effectiveness=0.5}
   :::
   :::pokemon[Nosepass]
-    - Fairy Wind like 6 times:info[Heal as needed]{color=gray}
-    - Astonish to Finish Off
+    - Fairy Wind like 8 times :info[Heal as needed]{color=gray}
 
     ::damage[Nosepass' Tackle]{source="Klefki" offensive=false movePower=50 level=10 evs=2 opponentLevel=14 opponentStat=17 effectiveness=0.5}
   :::
@@ -102,12 +101,12 @@ Talk to the sailor before Rusturf Tunnel.
 
 Immediately after entering Rusturf Tunnel:
   - Repel
-  - Potion (if health less than 11)
+  - Potion (if health less than 5)
   - Turn off Experience Share
 
-:::::::trainer[Team Aqua Grunt]
+:::::::trainer[Team Aqua Grunt]{info="Bite does max 5" infoColor=gray}
   :::::pokemon[Poochyena]
-    - Fairy Wind
+    - Fairy Wind :info[9/16 range to 1 shot]{color=gray}
     - Tackle
   :::::
 :::::::
@@ -122,13 +121,13 @@ Head to the gym.
 :::::trainer[Battle Girl Laura]
   :::pokemon[Meditite]
     - Fairy Wind x2
-    - Astonish as needed
+    - Astonish as needed if Endured
     - Do no teach Metal Sound
   :::
 :::::
 
 
-**Heal to full!**
+**Heal to full! Machop can land up to 2 Low Sweeps**
 
 :::::::trainer[Black Belt Hideki]
   :::::pokemon[Machop]
@@ -151,20 +150,22 @@ Heal to fullish.
 
 Heal to fullish.
 
-:::::trainer[Leader Brawly]
+:::::trainer[Leader Brawly]{info="Tackle+Fairy Wind strat to avoid potion range" infoColor=gray}
   :::pokemon[Machop]
     - Tackle
     - Fairy Wind
   :::
-  :::pokemon[Makuhita]
+  :::pokemon[Makuhita]{info="Tackle+FW is 98%" infoColor=gray}
     - Tackle
     - Fairy Wind
   :::
 :::::
 
-After exiting the gym, head north to Granite Cave.
+After exiting the gym, stop by Pokecenter to withdraw Mudkip and Heal Kelfki
 
-- Heal if yellow.
+Head north to Granite Cave.
+
+
 
 After talking to Steven, head back to the dock and talk to Mr. Briney. Sail to Slateport (press up once).
 
@@ -182,7 +183,7 @@ Head to the museum.
 :::::
 
 
-:::::trainer[Team Aqua Grunt]{info="Should have about 6 Vine Whips after" infoColor=gray}
+:::::trainer[Team Aqua Grunt]{info="Heal as needed" infoColor=gray}
   :::pokemon[Zubat]
     - Tackle x3
     ::damage[Zubat's Wing Attack]{source="Klefki" offensive=false movePower=60 level=15 opponentLevel=14 opponentStat=17 stab=true effectiveness=0.5}
@@ -198,11 +199,10 @@ Head to the museum.
 > - ALL Poké Balls
 > - Balm Mushroom
 > - Great Ball
-> - PP Up
 > #### Buy (Top)
-> - 2 X Speed
-> - 11 X Sp. Attack (v)
-> - 2 X Sp. Def (>^)
+> - 1 X Speed
+> - 2 X Sp. Def (>)
+> - 11 X Sp. Attack (^)
 
 > #### Buy (Bottom)
 > - 4 Super Repels (^^)
@@ -231,7 +231,7 @@ After beating Isabel:
     - X Sp. Attack x3
     - Draining Kiss
     - Fairy Wind
-    ::damage[Slugma's Incinerate]{source="Klefki" evolution=0 offensive=false movePower=60 special=true level=17 evs=0 opponentLevel=18 stab=true opponentStat=34 effectiveness=2}
+    ::damage[Slugma's Incinerate]{source="Klefki" evolution=0 offensive=false movePower=60 special=true level=18 evs=0 opponentLevel=18 stab=true opponentStat=34 effectiveness=2}
   :::::
   :::::pokemon[Grovyle]{info="Heal as needed" infoColor=gray}
     - Fairy Wind x2
@@ -626,8 +626,6 @@ Run from the first Kecleon. After the Kecleon cutscenes, menu and head to gym:
   :::
 :::::
 
-Recommend get extra Persims in bush and use in Pyre.
-
 Get the free heal before surfing to Mt. Pyre.
 
 
@@ -765,7 +763,7 @@ Exiting the puzzle:
   - X Sp. Attack w/ Mudkip (hopefully Mudkip dies)
   - Bring out Latias
   - Dazzling Gleam
-  - X Sp. Attack w/ Latias
+  - Heal Pulse w/ Latias
   
 
 :::::
@@ -812,7 +810,7 @@ Catch Kyogre with the Master Ball.
 ![Ice puzzle momement pt. 3](ice-puzzle-3.png)
 
 :::::::trainer[Leader Wallace]
-  :::::pokemon[Luvdisc]{info="If male Chestnaught, it will use attract!" infoColor=blue}
+  :::::pokemon[Luvdisc]{info="If male, it will use attract!" infoColor=blue}
      - X Sp. Attack x3
      - Dazzling Gleam
      - Don't teach Heal Block
