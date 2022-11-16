@@ -226,21 +226,23 @@ After beating Isabel:
 - Heal if paralyzed.
 - Use a Super Repel.
 
+-Brendan 2, might be worth setting up to +4 to 1 shot wailmer and grovyle, but must DK so idk.
 :::::::trainer[Brendan 2]
-  :::::pokemon[Slugma]
+  :::::pokemon[Slugma]{info="DK restores about 23, so super potion if DK doesn't put you out of incinerate range" infoColor=gray}
     - X Sp. Attack x3
     - Draining Kiss
     - Fairy Wind
     ::damage[Slugma's Incinerate]{source="Klefki" evolution=0 offensive=false movePower=60 special=true level=18 evs=0 opponentLevel=18 stab=true opponentStat=34 effectiveness=2}
   :::::
-  :::::pokemon[Grovyle]{info="Heal as needed" infoColor=gray}
+    :::::pokemon[Wailmer]
+    - Fairy Wind x2
+  :::::
+  :::::pokemon[Grovyle]{info="DK if need to heal" infoColor=gray}
     - Fairy Wind x2
     ::damage[Grovyle's Quick Attack]{source="Klefki" evolution=0 offensive=false movePower=40 level=20 evs=4 opponentLevel=20 opponentStat=35}
     ::damage[Grovyle's Fury Cutter]{source="Klefki" evolution=0 offensive=false movePower=40 level=20 evs=4 effectiveness=2 opponentLevel=20 opponentStat=35}
   :::::
-  :::::pokemon[Wailmer]
-    - Fairy Wind x2
-  :::::
+
 :::::::
 
 :info[**Free heal**]{color=pink}
@@ -249,12 +251,8 @@ Optional: Get the hidden Revive before the next spinner.
 
 Get Leppa Berries from one bush before entering Mauville. Drop Repel and get the Mach Bike.
 
-### Mauville Shopping
-> #### Buy (Top):
-> - Bulldoze (>^^)
 
-After exiting the mart:
-- Register the Mach Bike.
+Get and Register the Mach Bike.
 
 Exit menu and ride bike
 
@@ -282,7 +280,7 @@ Puzzle (room 1): Blue switch, red switch.
 Puzzle (room 2): Top-right blue switch, red switch, top-right blue switch.
 
 :::::trainer[Youngster Ben]
-  :::pokemon[Electrike]
+  :::pokemon[Electrike]{info="Volterbs next fight have static, try to get close to 100% HP after this fight" infoColor=gray}
     - Astonish
     - Draining Kiss
 
@@ -291,13 +289,12 @@ Puzzle (room 2): Top-right blue switch, red switch, top-right blue switch.
   :::
 :::::
 
-:::::trainer[Guitarist Shawn]
+:::::trainer[Guitarist Shawn]{info="Both Volterbs have Static, do not DK!" infoColor=gray}
   :::pokemon[Voltorb]
     - Fairy Wind x2
   :::
   :::pokemon[Voltorb]
-    - Fairy Wind
-    - Draining Kiss (try to get close to full heal at end of fight)
+    - Fairy Wind x2
   :::
 :::::
 
@@ -305,14 +302,17 @@ Puzzle (room 2): Top-right blue switch, red switch, top-right blue switch.
   :::pokemon[Magnemite]{info="Heal Paralyze after setup" infoColor=blue}
     - Astonish
     - X Sp. Attack x3
-    - Fairy Wind (DK if need to heal)
+    - Draining Kiss
   :::
-  :::pokemon[Voltorb]{info="Keep setting up on Voltorb if Volt Switch" infoColor=blue}
+  :::pokemon[Voltorb]{info="Keep setting up on Voltorb if Volt Switch, it outspeeds so heal if range" infoColor=blue}
     - Fairy Wind (DK if need to heal)
     - If spamming charge, consider Astonish to avoid heal range
+    ::damage[Voltorb's Volt Switch]{source="Klefki" evolution=0 offensive=false movePower=70 level=22 opponentLevel=19 opponentStat=25}
   :::
-  :::pokemon[Magneton]
+  :::pokemon[Magneton]{info="Volt Switch does around 26" infoColor=blue}
     - Draining Kiss x2
+    ::damage[Magneton's Volt Switch]{source="Klefki" evolution=0 offensive=false movePower=70 level=22 opponentLevel=21 opponentStat=55}
+
   :::
 :::::
 
