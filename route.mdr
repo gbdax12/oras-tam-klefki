@@ -202,7 +202,7 @@ Head to the museum.
 > #### Buy (Top)
 > - 1 X Speed
 > - 2 X Sp. Def (>)
-> - 11 X Sp. Attack (^)
+> - 12 X Sp. Attack (^)
 
 > #### Buy (Bottom)
 > - 4 Super Repels (^^)
@@ -252,10 +252,12 @@ Optional: Get the hidden Revive before the next spinner.
 Get Leppa Berries from one bush before entering Mauville. Drop Repel and get the Mach Bike.
 
 
+
 Get and Register the Mach Bike.
 
 Exit menu and ride bike
 
+**GET THE METRONOME ON 3RD FLOOR**
 
 Head north to the gym.
 
@@ -303,15 +305,17 @@ Puzzle (room 2): Top-right blue switch, red switch, top-right blue switch.
     - Astonish
     - X Sp. Attack x3
     - Draining Kiss
+    ::damage[Magnemite's Volt Switch]{source="Klefki" evolution=0 offensive=false movePower=70 level=22 opponentLevel=19 opponentStat=45 stab=true}
   :::
   :::pokemon[Voltorb]{info="Keep setting up on Voltorb if Volt Switch, it outspeeds so heal if range" infoColor=blue}
     - Fairy Wind (DK if need to heal)
     - If spamming charge, consider Astonish to avoid heal range
-    ::damage[Voltorb's Volt Switch]{source="Klefki" evolution=0 offensive=false movePower=70 level=22 opponentLevel=19 opponentStat=25}
+    ::damage[Voltorb's Volt Switch]{source="Klefki" evolution=0 offensive=false movePower=70 level=22 opponentLevel=19 opponentStat=25 stab=true}
   :::
-  :::pokemon[Magneton]{info="Volt Switch does around 26" infoColor=blue}
+  :::pokemon[Magneton]
     - Draining Kiss x2
-    ::damage[Magneton's Volt Switch]{source="Klefki" evolution=0 offensive=false movePower=70 level=22 opponentLevel=21 opponentStat=55}
+    - Do not teach Crafty Shield
+    ::damage[Magneton's Volt Switch]{source="Klefki" evolution=0 offensive=false movePower=70 level=22 opponentLevel=21 opponentStat=55 stab=true}
 
   :::
 :::::
@@ -319,6 +323,7 @@ Puzzle (room 2): Top-right blue switch, red switch, top-right blue switch.
 Exit the gym and head north. At the rocks:
 - Teach Rock Smash to Mudkip.
 - Use a Super Repel (keep applied until they run out).
+- Equip Metronome
 
 :info[**Free heal**]{color=pink}
 
@@ -326,16 +331,14 @@ Head through the cave. After exiting, grab the Persim Berries from the middle bu
 
 :::::::trainer[Ace Trainer Wilton]
   :::::pokemon[Electrike]
-    - Fairy Wind :info[_Use the X Attack here if not attempting the range on Bagon_ (not worth imo)]{color=gray}
+    - Fairy Wind
     - Draining Kiss
   :::::
   :::::pokemon[Makuhita]
     - Draining Kiss
     - If Whirlwind, Growl with Mudkip until death or Whirlwind again
-
-    ::damage[+1 Bulldoze vs Makuhita]{source="Klefki" evolution=0 movePower=60 stab=false level=24 evs=9 opponentStat=21 healthThreshold=63 otherPowerModifier=1.2 combatStages=1 theme=error}
   :::::
-  :::::pokemon[Bagon]{info="Bulldoze x2 is a 37.5% Range" infoColor=blue}
+  :::::pokemon[Bagon]
     - Fairy Wind
   :::::
 :::::::
@@ -348,14 +351,14 @@ Head through the cave. After exiting, grab the Persim Berries from the middle bu
     - Draining Kiss
   :::
   :::pokemon[Electrike]
-    - Draining Kiss
+    - Fairy Wind x2
   :::
 :::::
 
 :::::trainer[Poké Maniac Steve]
   :::pokemon[Aron]
-    - Astonish
-    - Draining Kiss x2
+    - Draining Kiss
+    - Fairy Wind until Dead
   :::
 :::::
 
@@ -371,7 +374,7 @@ Heal to full-ish.
   - (Potion if in Aqua Jet range) :info[_Use a Super Potion if Grovyle is not your ally_]{color=red}
   - Tackle Grimer until death
 
-  ::damage[Carvanha's Aqua Jet (estimated)]{source="Klefki" offensive=false movePower=40 level=23 evs=0 opponentLevel=26 opponentStat=41 stab=true effectiveness=1}
+  ::damage[Carvanha's Aqua Jet (estimated)]{source="Klefki" offensive=false movePower=40 level=25 evs=0 opponentLevel=26 opponentStat=41 stab=true effectiveness=1}
 :::
 
 Say yes when Brendan asks if you want to go back to Mauville.
@@ -403,7 +406,8 @@ Enter the cable car building (watch out for the spinner in front!) and talk to t
 :::::
 
 :info[**RECOMMEND SAVE**]{color=red}
-:::::trainer[Aqua Admin Shelly]
+
+:::::trainer[Aqua Admin Shelly]{info="Mudbomb does ~16" infoColor=blue}
   :::pokemon[Grimer]
     - Fairy Wind chain, Tackle if Disable
     - Teach Foul Play over Astonish (Slot 4)
@@ -422,18 +426,15 @@ Enter the cable car building (watch out for the spinner in front!) and talk to t
   :::::pokemon[Mightyena]{info="Heal Confusion using Full Heals and HP as needed" infoColor=gray}
     - X Speed
     - X Sp. Attack
-    - (X Attack x2 if you have not been Swagger'd)
     - Draining Kiss
   :::::
   :::::pokemon[Sharpedo]
     - Fairy Wind
-
-    ::damage[Sharpedo's Assurance]{source="Klefki" evolution=0 offensive=false movePower=60 level=25 evs=6 opponentLevel=27 opponentStat=69 stab=true effectiveness=0.5}
   :::::
   :::::pokemon[Golbat]
     - Tackle x2
 
-    ::damage[+2 Rock Tomb vs Golbat]{source="Klefki" evolution=0 movePower=60 level=25 evs=15 opponentStat=40  healthThreshold=72 combatStages=2 effectiveness=2 theme=error}
+
   :::::
 :::::::
 
@@ -445,9 +446,7 @@ Exit the peak at the left-most tile and bike straight down without stopping.
 
  Go to the gym.
 
-- Heal to full (unless no significant damage was taken).
-- Teach Swords Dance over Bite (slot 1).
-- Equip the Soft Sand.
+
 
 Gym puzzle:
 - Right pad
@@ -457,25 +456,31 @@ Gym puzzle:
 - Far right pad
 - Bottom pad
 
+:info[**RECOMMEND SAVE**]{color=red}
+
 :::::trainer[Kindler Andy]
-  :::pokemon[Numel]{info="Heal Confusion using Full Heals and HP as needed" infoColor=gray}
+  :::pokemon[Numel]{info="Heal HP as needed" infoColor=gray}
     - Foul Play x2-3
+  ::damage[Numel's Earth Power (estimated)]{source="Klefki" offensive=false movePower=90 special=true level=29 evs=0 opponentLevel=25 opponentStat=41 stab=true effectiveness=2}
+  ::damage[Numel's 1st Overheat (estimated)]{source="Klefki" offensive=false movePower=130 special=true level=29 evs=0 opponentLevel=25 opponentStat=41 stab=true effectiveness=2}
   :::
 :::::
 
 :info[**RECOMMEND SAVE**]{color=red}
+
+- Heal to Full
+- Equip Metronome
+
 :::::trainer[Leader Flannery]
   :::pokemon[Slugma]{info="Has Flame Body, don't Draining Kiss!" infoColor=gray}
+    - X Sp. Defense
     - X Sp. Attack x2
-    - If Slugma Sunny Day, X Sp. Defense
     - Hyper Potion after 1st Overheat hit
-    - Fairy Wind x2
+    - Fairy Wind
+    - Draining Kiss
   :::
   :::pokemon[Torkoal]
-    - Heal to **FULL**
-    - X Sp. Defense if Sunny Day and you didn't on Slugma
-    - Draining Kiss
-    - Fairy Wind x2
+    - Draining Kiss x2
   :::
   :::pokemon[Numel]
     - Draining Kiss
@@ -484,7 +489,7 @@ Gym puzzle:
 
 Leave and say yes to Brendan when he asks if you want to go to Petalburg.
 
-Heal to full.
+Heal to full but prob don't need to if Flannery went OK.
 
 Inside the gym, always take the right door when given a choice.
 
@@ -502,11 +507,9 @@ Heal if yellow.
   :::
 :::::
 
-Heal if yellow
-
 :::::trainer[Ace Trainer Berke]
   :::pokemon[Zangoose]
-    - Fairy Wind x3
+    - Foul Play x2
     - Do not teach Torment
   :::
 :::::
@@ -519,14 +522,13 @@ Heal if yellow
   :::::pokemon[Slaking]
     - Spam Foul Play
 
-    ::damage[Slaking's Retaliate at +0 Defense]{source="Klefki" evolution=0 offensive=false movePower=70 level=28 evs=8 opponentLevel=28 opponentStat=94 combatStages=1 stab=true}
+    ::damage[Slaking's Retaliate at +0 Defense]{source="Klefki" evolution=0 offensive=false movePower=70 level=32 opponentLevel=28 opponentStat=94 combatStages=1 stab=true}
   :::::
   :::::pokemon[Vigoroth]
-    - Fairy Wind x3
+    - Spam Foul Play
   :::::
   :::::pokemon[Slaking]
-    - Spam Fairy Wind
-    - Foul Play if Confused
+    - Spam Foul Play
     - Teach Mirror Shot over Tackle
 
 
@@ -534,12 +536,12 @@ Heal if yellow
 :::::::
 
 - Heal to full.
-- Teach Strength over Water Gun (slot 3).
-- Teach Surf over Tackle (slot 1).
+- Teach Strength to Mudkip over Water Gun (slot 3).
+- Teach Surf to Mudkip over Tackle (slot 1).
 
 :::::trainer[Team Aqua Double]
   - Fairy Wind until Sharpedo Dies
-  - Foul Play Grimer or Tacke if Swaggered :info[_unless Rough Skin would kill_]{color=gray}
+  - Foul Play Grimer
 :::::
 
 
@@ -547,7 +549,7 @@ Heal if yellow
 :info[**Trainer at edge of grass is spinner, be careful**]{color=red}
 ![Dazzling Gleam](dazzling_gleam.gif)
 
-- Grab Elixir if used both Leppas.
+- Grab Elixir.
 
 :::::trainer[Team Aqua Grunt]{info="Top Grunt, not the bottom Grunt." infoColor=gray}
   :::pokemon[Grimer]
@@ -556,12 +558,12 @@ Heal if yellow
   :::
 :::::
 
-- If you have 2 Persims, can equip here (super optional)
-- Teach Dazzling Gleam over Fairy Wind
+- Equip Persim Berry
+- Teach Dazzling Gleam over Draining Kiss (Slot 1)
 
 :::::trainer[Team Aqua Grunt]
   :::pokemon[Carvanha]
-    - Dazzling Gleam
+    - Fairy Wind
   :::
   :::pokemon[Mightyena]
     - Dazzling Gleam
@@ -569,16 +571,12 @@ Heal if yellow
   :::
 :::::
 
-- Heal if in Ice Fang range.
-- Equip a Persim Berry if used or not done before.
 
 :info[**RECOMMEND SAVE**]{color=red}
 
 :::::trainer[Aqua Admin Shelly]
   :::pokemon[Sharpedo]{info="Faster at 74+ Speed (x / 10+ / 0+)" infoColor=blue}
     Dazzling Gleam
-
-    ::damage[Sharpedo's Ice Fang]{source="Klefki" evolultion=1 offensive=false movePower=65 level=35 evs=7 opponentLevel=32 opponentStat=89 effectiveness=2}
   :::
 :::::
 
@@ -592,24 +590,22 @@ Heal if yellow
     - Foul Play x2
   :::
   :::pokemon[Grovyle]
-    - Foul Play
+    - Foul Play (x2)
 
     ::damage[Grovyle's Pursuit]{source="Klefki" evolution=0 offensive=false movePower=40 level=30 evs=7 opponentLevel=33 opponentStat=47 effectiveness=2}
+  :::
 
-  :::
-  :::pokemon[Wailmer]
-    - Bulldoze
-  :::
 :::::
 
 Run from the first Kecleon. After the Kecleon cutscenes, menu and head to gym:
-
-:info[**RECOMMEND SAVE**]{color=red}
+- Heal to Full
+- Teach Fly to Latias over Psycho Shift (Slot 4)
+- Equip Metronome
 
 :::::trainer[Leader Winona]
   :::pokemon[Swellow]
-    ::damage[+1 Def Swellow's Aerial Ace]{source="Klefki" evolution=0 offensive=false effectiveness=4 combatStages=1 movePower=60 stab=true level=36 evs=7 opponentLevel=33 opponentStat=61}
-    - X Sp. Attack x2
+    ::damage[Swellow's Aerial Ace]{source="Klefki" evolution=0 offensive=false effectiveness=0.5 combatStages=0 movePower=60 stab=true level=37 opponentLevel=33 opponentStat=61}
+    - X Sp. Attack x3
     - Dazzling Gleam
   :::
   :::pokemon[Altaria]
@@ -617,12 +613,10 @@ Run from the first Kecleon. After the Kecleon cutscenes, menu and head to gym:
   :::
   :::pokemon[Skarmory]
     - Dazzling Gleam
-
-    ::damage[Skarmory's Air Cutter]{source="Klefki" evolution=0 combatStages=0 offensive=false special=true movePower=60 stab=true level=37 evs=0 opponentLevel=33 opponentStat=31 effectiveness=4}
   :::
   :::pokemon[Pelipper]
     - Dazzling Gleam
-    ::damage[+1 Def Pelipper's Aerial Ace]{source="Klefki" evolution=0 offensive=false effectiveness=4 combatStages=1 movePower=60 stab=true level=36 evs=7 opponentLevel=33 opponentStat=38}
+    
   :::
 :::::
 
@@ -631,17 +625,17 @@ Get the free heal before surfing to Mt. Pyre.
 
 :::::trainer[Team Aqua Grunt]
   :::pokemon[Grimer]
-    - Mirror Shot
-    - Foul Play (x2)
+    - Mirror Shot x2 (or try Foul Play Range but bad)
   :::
 :::::
 
 :::::trainer[Team Aqua Grunt]
   :::pokemon[Carvanha]
-    - Dazzling Gleam
+    - Fairy Wind
   :::
   :::pokemon[Mightyena]
     - Dazzling Gleam
+    - Don't Teach Recycle
   :::
 :::::
 
@@ -663,17 +657,16 @@ If in yellow health:
   ::::
 :::::::
 
-- Get tombstone Rare Candy.
 - Fly to Slateport.
-- Heal to full.
+- Heal to fullish.
 
 ### Slateport Shopping.
 > #### Buy (Top):
-> - 16 X Sp. Attack 
-> - 3 X Accuracy
+> - 16 X Sp. Attack (>^)
+> - 3 X Accuracy (^)
 > #### Buy (Botom):
 > - 11 Max Repel (^^)
-> - MAX Full Restore(vv)
+> - MAX Full Restore(<<vvv)
 
 Bike to the Harbor.
 
@@ -685,7 +678,7 @@ Bike to the Harbor.
 
 :::::::trainer[Team Aqua Grunt]
   :::::pokemon[Carvanha]
-      - Dazzling Gleam
+      - Fairy Wind
   :::::
   :::::pokemon[Golbat]
     - Mirror Shot x2
@@ -693,16 +686,16 @@ Bike to the Harbor.
 :::::::
 
 - Heal to full
-- Leppa Dazzling Gleam (Slot 3)
 
 :::::::trainer[Brendan 4]{info="less pain"}
-  :::::pokemon[Swellow]{info="Faster at 98+ Speed (Lv. 34: x / x / 28+) (Lv. 35: x / x / 21+)" infoColor=blue}
+  :::::pokemon[Swellow]{info="If run out of Dazzling Gleam, just spam Foul Play" infoColor=blue}
     - X Sp. Attack
     - Dazzling Gleam
   :::::
   :::::pokemon[Magcargo]
     - Dazzling Gleam x2
     - Do not Teach Play Rough
+    ::damage[Magcargo's Lava Plume]{source="Klefki" evolution=0 offensive=false effectiveness=2 special=true combatStages=0 movePower=80 stab=true level=42 opponentLevel=37 opponentStat=64}
   :::::
   :::::pokemon[Wailord]
     - Dazzling Gleam
@@ -714,6 +707,8 @@ Bike to the Harbor.
   :::::
 :::::::
 
+- Heal to Full if signficant damage
+- Use Elixir
 
 **Might want to save here** 
 
@@ -756,7 +751,6 @@ Exiting the puzzle:
 :::::
 
 - Heal to full.
-- Elixir
 
 :::::trainer[Liza & Tate]
   - Dazzling Gleam
@@ -800,8 +794,7 @@ Exiting the puzzle:
 Catch Kyogre with the Master Ball.
 
 - Heal to Full.
-- Leppa Seed Bomb.
-- Give Persim Berry.
+- Leppa Dazzling Gleam.
 
 ![Ice puzzle momement pt. 1](ice-puzzle-1.png)
 
