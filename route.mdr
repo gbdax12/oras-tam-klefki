@@ -75,7 +75,7 @@ Go to the forest.
 
 :info[**Free heal**]{color=pink}
 
-Get Balm Mushroom + Ether.
+Don't get Balm Mushroom. Ether optional.
 
 Head to Rustboro City Gym and skip every trainer.
 
@@ -169,7 +169,7 @@ Head north to Granite Cave.
 
 After talking to Steven, head back to the dock and talk to Mr. Briney. Sail to Slateport (press up once).
 
-Go to the north-west of the beach and grab the PP Up.
+Don't Grab PP Up or Soft Sand.
 
 Head to Stern's Shipyard and watch the cutscene.
 
@@ -197,10 +197,9 @@ Head to the museum.
 ### Slateport Shopping
 > #### Sell (Top)
 > - ALL Poké Balls
-> - Balm Mushroom
 > - Great Ball
 > #### Buy (Top)
-> - 1 X Speed
+> - 2 X Speed
 > - 2 X Sp. Def (>)
 > - 12 X Sp. Attack (^)
 
@@ -234,7 +233,7 @@ After beating Isabel:
     - Fairy Wind
     ::damage[Slugma's Incinerate]{source="Klefki" evolution=0 offensive=false movePower=60 special=true level=18 evs=0 opponentLevel=18 stab=true opponentStat=34 effectiveness=2}
   :::::
-    :::::pokemon[Wailmer]
+  :::::pokemon[Wailmer]
     - Fairy Wind x2
   :::::
   :::::pokemon[Grovyle]{info="DK if need to heal" infoColor=gray}
@@ -249,9 +248,9 @@ After beating Isabel:
 
 Optional: Get the hidden Revive before the next spinner.
 
-Get Leppa Berries from one bush before entering Mauville. Drop Repel and get the Mach Bike.
+Get Leppa Berries from one bush before entering Mauville.
 
-
+Drop Repel.
 
 Get and Register the Mach Bike.
 
@@ -284,10 +283,11 @@ Puzzle (room 2): Top-right blue switch, red switch, top-right blue switch.
 :::::trainer[Youngster Ben]
   :::pokemon[Electrike]{info="Volterbs next fight have static, try to get close to 100% HP after this fight" infoColor=gray}
     - Astonish
-    - Draining Kiss
+    - If you need to Heal:
+      - Draining Kiss
 
-    If you don't need to Heal
-    - Fairy Wind x2
+    - If you don't need to Heal:
+      - Fairy Wind x2
   :::
 :::::
 
@@ -365,8 +365,6 @@ Head through the cave. After exiting, grab the Persim Berries from the middle bu
 Pick up the Comet Shard from the center of the first crater.
 
 Heal to full-ish.
-
-:info[**RECOMMEND SAVE**]{color=red}
 
 :::trainer[Team Aqua Double]
   - Fairy Wind Mightyena until death
@@ -516,8 +514,6 @@ Heal if yellow.
 
 **Heal to full.**
 
-:info[**RECOMMEND SAVE**]{color=red}
-
 :::::::trainer[Leader Norman]
   :::::pokemon[Slaking]
     - Spam Foul Play
@@ -571,8 +567,6 @@ Heal if yellow.
   :::
 :::::
 
-
-:info[**RECOMMEND SAVE**]{color=red}
 
 :::::trainer[Aqua Admin Shelly]
   :::pokemon[Sharpedo]{info="Faster at 74+ Speed (x / 10+ / 0+)" infoColor=blue}
@@ -652,7 +646,7 @@ If in yellow health:
 :::::
 
 :::::::trainer[Aqua Admin Matt]
-  :::::pokemon[Sharpedo]{info="Don't get flinched or frozen nerd :)"}
+  ::::pokemon[Sharpedo]{info="Don't get flinched or frozen nerd :)"}
     - Dazzling Gleam
   ::::
 :::::::
@@ -662,8 +656,8 @@ If in yellow health:
 
 ### Slateport Shopping.
 > #### Buy (Top):
-> - 16 X Sp. Attack (>^)
-> - 3 X Accuracy (^)
+> - 15 X Sp. Attack (>^)
+> - 2 X Accuracy (^)
 > #### Buy (Botom):
 > - 11 Max Repel (^^)
 > - MAX Full Restore(<<vvv)
@@ -678,7 +672,7 @@ Bike to the Harbor.
 
 :::::::trainer[Team Aqua Grunt]
   :::::pokemon[Carvanha]
-      - Fairy Wind
+    - Fairy Wind
   :::::
   :::::pokemon[Golbat]
     - Mirror Shot x2
@@ -709,8 +703,6 @@ Bike to the Harbor.
 
 - Heal to Full if signficant damage
 - Use Elixir
-
-**Might want to save here** 
 
 :::::trainer[Team Aqua Grunt]
   :::pokemon[Golbat]
@@ -805,6 +797,8 @@ Catch Kyogre with the Master Ball.
 :::::::trainer[Leader Wallace]
   :::::pokemon[Luvdisc]{info="If male, it will use attract!" infoColor=blue}
      - X Sp. Attack x3
+     - X Speed
+     - Full Heal if confused
      - Dazzling Gleam
      - Don't teach Heal Block
   :::::
@@ -826,8 +820,9 @@ Catch Kyogre with the Master Ball.
 - Teach Waterfall to Latias over Mist Ball (slot 3).
 - Fly to Route 126.
 
-At the Pokémon Center, deposit Castform, Latias and Kyogre. Keep mudkip dead.
+At the Pokémon Center, deposit Castform, Latias and Kyogre. Heal Klefki. Keep mudkip dead.
 
+**Dazzling Gleam PP is Tight, try not to waste**
 
 :::::trainer[Ace Trainer Hope]
   :::pokemon[Froslass]
@@ -846,7 +841,7 @@ At the Pokémon Center, deposit Castform, Latias and Kyogre. Keep mudkip dead.
 
 :::::trainer[Ace Trainer Edgar]
   :::pokemon[Mawile]
-    - Mirror Shot x2 (potentially x sp. attack to only hit 1)
+    - Mirror Shot x2-3
   :::
 :::::
 
@@ -854,8 +849,8 @@ At the Pokémon Center, deposit Castform, Latias and Kyogre. Keep mudkip dead.
 
 :::::trainer[Export Theodore]
   :::pokemon[Sawk]{info="Faster at 85+ Speed (16+ / 0+ / 0+)" infoColor=blue}
-    - Swords Dance
-    - Seed Bomb
+    - Dazzling Gleam
+    - Fairy WInd if Endured
   :::
 :::::
 
@@ -870,7 +865,7 @@ At the Pokémon Center, deposit Castform, Latias and Kyogre. Keep mudkip dead.
     - Dazzling Gleam x2
   :::
   :::pokemon[Roselia]
-    - Dazzling Gleam x2
+    - Dazzling Gleam x2 (or Fairy Wind if short on DG)
   :::
   :::pokemon[Delcatty]
     - Dazzling Gleam
@@ -880,34 +875,33 @@ At the Pokémon Center, deposit Castform, Latias and Kyogre. Keep mudkip dead.
   :::
 :::::
 
-- Deposit Mudkip and Withdraw Latias.
+- Deposit Mudkip and Withdraw **Castform**.
 
 :::::::trainer[Elite Four Sidney]
-  :::::pokemon[Mightyena]{info="Get to +4" infoColor=blue}
+  :::::pokemon[Mightyena]
     - Dazzling Gleam
   :::::
   :::::pokemon[Shiftry]
-    - Dazzling Gleam
+    - X Sp. Attack (on Fakeout turn)
+    - Fairy Wind
   :::::
-  :::::pokemon[Sharpedo]{info="Faster at 105+ Speed without X-Speed (x / 28+ / 9+)" infoColor=blue}
-    - Dazzling Gleam
+  :::::pokemon[Sharpedo]{info="Will probably aqua jet but who cares" infoColor=blue}
+    - Fairy Wind
   :::::
   :::::pokemon[Absol]
-    - Dazzling Gleam
+    - Fairy Wind
   :::::
   :::::pokemon[Cacturne]
-    - Dazzling Gleam
+    - Fairy Wind
   :::::
 :::::::
 
-- Heal to full.
-- Recommend: Equip Persim
+- No need to heal
 
 :::::::trainer[Phoebe]
   :::::pokemon[Dusclops]
     - Swap to Castform
     - Heal Klefki
-    - Leppa Dazzling Gleam
     - Weather Ball until Castform Dead (hope Dusclops use Curse)
     - Dazzling Gleam w/ Klefki
   :::::
@@ -918,25 +912,27 @@ At the Pokémon Center, deposit Castform, Latias and Kyogre. Keep mudkip dead.
   :::::pokemon[Banette]
     - Dazzling Gleam
   :::::
-  :::::pokemon[Banette]{info="Extra Swords Dance if turn after Grudge" infoColor=gray}
+  :::::pokemon[Banette]
     - Dazzling Gleam
   :::::
   :::::pokemon[Sableye]{info="Fakeout does 10" infoColor=blue}
-    - Bulldoze
+    - Dazzling Gleam
+    - If out of Dazzling Gleam, Foul Play and Fairy Wind
   :::::
 :::::::
 
-- Heal to Full
+- Heal if yellow
 
 :::::::trainer[Glacia]
   :::::pokemon[Glalie]{info="If Grudged Seed Bomb, go to +6 and Bulldoze everything except Walrein." infoColor=gray}
     ::damage[Glalie's Ice Shard]{source="Klefki" evolution=0 offensive=false movePower=40 evs=16 stab=true level=55 opponentLevel=52 opponentStat=92 effectiveness=2 special=false}
-    - X Sp. Attack x3
     - X Accuracy
-    - Mirror Shot
+    - X Sp. Attack
+    - Hyper Potion or other Heal 
+    - Mirror Shot x2
   :::::
   :::::pokemon[Walrein]
-    - Mirror Shot
+    - Mirror Shot x2
   :::::
   :::::pokemon[Froslass]
     - Mirror Shot
@@ -948,58 +944,64 @@ At the Pokémon Center, deposit Castform, Latias and Kyogre. Keep mudkip dead.
     - Mirror Shot
   :::::
 :::::::
- ::variable{name="smackdown" type="boolean" title="Teach Smack Down over Rock Tomb? Slower but safer." defaultValue=1}
 
-- Heal to full.
-- **Elixir**
+- Heal if Yellow
+- If Menuing, Leppa Dazzling Gleam
 
 :::::::trainer[Elite Four Drake]
   :::::pokemon[Altaria]
     ::damage[Altaria's Aerial Ace]{source="Klefki" evolution=0 offensive=false movePower=60 evs=16 stab=true level=56 opponentLevel=53 opponentStat=92 effectiveness=4 special=false}
-    - X Sp. Attack
-    - Dazzling Gleam
+    - X Sp. Attack x2
+    - Fairy Wind
 
   :::::
   :::::pokemon[Flygon]{info="Heal as needed" infoColor=gray}
-    - Dazzling Gleam
+    - Fairy Wind
   :::::
   :::::pokemon[Flygon]
-    - Dazzling Gleam
+    - Fairy Wind
   :::::
   :::::pokemon[Kingdra]
-    - Dazzling Gleam
+    - Fairy Wind
   :::::
   :::::pokemon[Salamence]
-    - Dazzling Gleam
+    - Fairy Wind
   :::::
 
 :::::::
 
 - Heal to Full
+- Leppa Dazzling Gleam if not done before
 
 :::::::trainer[Champion Steven]
   :::::pokemon[Skarmory]{info="Heal as needed" infoColor=gray}
-    - Mirror Shot
-    - X Sp. Attack x4
-    - Mirror Shot
-    ::damage[+2 Def Skarmory's Steel Wing]{source="Klefki" evolution=0 offensive=false movePower=60 evs=16 stab=true level=58 opponentLevel=57 opponentStat=105 effectiveness=4 special=false combatStages=2}
-  :::::
-  :::::pokemon[Cradily]
-    - Seed Bomb
-  :::::
-  :::::pokemon[Claydol]
-    - Seed Bomb
+    - X Sp. Attack 
+    - Dazzling Gleam
+    - X Sp. Attack x3 (for 4 total)
+    - Dazzling Gleam
+    ::damage[Skarmory's Steel Wing]{source="Klefki" evolution=0 offensive=false movePower=70 stab=true level=62 opponentLevel=57 opponentStat=105 effectiveness=1 special=false combatStages=0}
+    ::damage[-1 Def Skarmory's Steel Wing]{source="Klefki" evolution=0 offensive=false movePower=70 stab=true level=62 opponentLevel=57 opponentStat=105 effectiveness=1 special=false combatStages=-1}
   :::::
   :::::pokemon[Aggron]{info="Iron Tail does 30 max, heal before Rock Tomb if in range" infoColor=gray}
-    - Mir
+    - Foul Play
+    - Dazzling Gleam
+    ::damage[Aggron's Earthquake]{source="Klefki" evolution=0 offensive=false movePower=100 stab=false level=63 opponentLevel=57 opponentStat=125 effectiveness=2 special=false combatStages=0}
+    ::damage[-1 Def Aggron's Earthquake]{source="Klefki" evolution=0 offensive=false movePower=100 stab=false level=63 opponentLevel=57 opponentStat=125 effectiveness=2 special=false combatStages=-1}
+  :::::
+  :::::pokemon[Claydol]
+    - Dazzling Gleam
   :::::
   :::::pokemon[Armaldo]{info="Heal if Bullet Punch Range" infoColor=gray}
-    - Seed Bomb
+    - Dazzling Gleam
+    - If you need to heal, 1) Heal, 2) X Sp. Attack, 3) Dazzling Gleam
+  :::::
+  :::::pokemon[Cradily]
+    - Dazzling Gleam
   :::::
   :::::pokemon[Mega Metagross]
     ::damage[Metagross' Bullet Punch]{source="Klefki" evolution=0 offensive=false movePower=40 stab=true level=60 evs=20 opponentLevel=59 opponentStat=185 effectiveness=1 otherModifier=1.3}
     ::damage[-1 Def Metagross' Bullet Punch]{source="Klefki" evolution=0 combatStages=-1 offensive=false movePower=40 stab=true level=60 evs=20 opponentLevel=59 opponentStat=185 effectiveness=1 otherModifier=1.3}
-    - Bulldoze
+    - Dazzling Gleam
   :::::
 :::::::
 
